@@ -1,0 +1,849 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#CFD8DC"
+    android:orientation="vertical">
+
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentStart="true"
+                    android:maxLines="44"
+                    android:padding="8dp"
+                    android:text="Mentors are the ones who help the competitors to get the best results, to give them hints and show them the right way to apply their creative ideas.\n\nAnd in the Space Apps Ismailia we have got some of the best mentors in their expertise field, you can know them below"
+                    android:textColor="#666"
+                    android:textSize="14sp" />
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/ffas"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:maxLines="3"
+                            android:padding="8dp"
+                            android:text="Ahmed Emam"
+                            android:textColor="#D50000"
+                            android:textSize="22dp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+
+
+                            android:layout_below="@+id/titleda"
+                            android:maxLines="44"
+                            android:padding="8dp"
+                            android:text="• Student at Professional Developer Track , 9-Month Diploma Information And Technology Institute (ITI)\n\n• BSc in Faculty of computer and informatics (Informations System 2014)\n• Vice President at Enactus SCU 2014\n• Team Leader at The Triple Effect 2014"
+                            android:textColor="#666"
+                            android:textSize="14sp" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="  Contact : ah.emam92@gmail.com\n"
+                            android:textStyle="bold" />
+
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <ScrollView
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical">
+
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:maxLines="3"
+                                android:padding="8dp"
+                                android:text="Ahmed Hady"
+                                android:textColor="#D50000"
+                                android:textSize="22dp"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:padding="8dp"
+                                android:text="Underwater Robotics:\n• Head of mechanical team of torpedo team for 2015 and 2016\n• Participated in ROV International competition 2015 in Canada\n• Participated in ROV competition in 2014 as a member of mechanical team\n• Part of Torpedo academy training program for Alexandria engineering students\n• Part of torpedo R and D team \n
+\nGround Vehicle Robotics:\n• Participated in Robocon competition 2013 and 2014 as a member of mechanical team\n• Preparing the rule book and playground design of LMR’14 “Let’s Make A Robot competition – the largest robotics competition in Alexandria university”\n• Part of LMR’15 Technical and Judging team\n\nTechnical experience :\n• Presented many lectures in CFD “Computational fluid dynamics” and finite elements\n• Participated in many Aerodynamics researches "
+                                android:textColor="#666"
+                                android:textSize="14sp" />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="  Contact : es-ahmed.hady1116@alexu.edu.eg\n"
+                                android:textStyle="bold" />
+
+
+                        </LinearLayout>
+
+                    </ScrollView>
+
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:maxLines="3"
+                            android:padding="8dp"
+                            android:text="Ahmed Reda"
+                            android:textColor="#D50000"
+                            android:textSize="22dp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+
+                            android:maxLines="44"
+                            android:padding="8dp"
+                            android:text="Experience is related to :\n\n
+• UVs [ UAVs - UGVs - ROVs ] control systems , autonomous navigation systems , sensors [ optical , navigation , stability ] and intelligent swarm systems . My interests and research usually in Drones .
+\n\n• Image processing , using OpenCV and python .
+\n\n• Artificial intelligence , Swarm Intelligence , Machine learning Algorithms ."
+                            android:textColor="#666"
+                            android:textSize="14sp" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="  Contact : reahmedreda@gmail.com\n"
+                            android:textStyle="bold" />
+
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:maxLines="3"
+                            android:padding="8dp"
+                            android:text="Ammar Atef"
+                            android:textColor="#D50000"
+                            android:textSize="22dp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+
+                            android:maxLines="44"
+                            android:padding="8dp"
+                            android:text="A certified from IBM as worklight mobile devolper and taking scholarship program from udacity in Android app fundamentals"
+                            android:textColor="#666"
+                            android:textSize="14sp" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="  Contact : a_atef45@yahoo.com\n"
+                            android:textStyle="bold" />
+
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:maxLines="3"
+                            android:padding="8dp"
+                            android:text="Abdullah Shaker"
+                            android:textColor="#D50000"
+                            android:textSize="22dp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentEnd="true"
+                            android:layout_alignParentLeft="true"
+                            android:layout_alignParentRight="true"
+                            android:layout_alignParentStart="true"
+                            android:maxLines="44"
+                            android:padding="8dp"
+                            android:text="• Researcher at Space Weather Monitoring Center \n• Teaching Assistant at Physics Department in Science college Helwan Uni."
+                            android:textColor="#666"
+                            android:textSize="14sp" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="  Contact : Abdullah_Shaker@science.helwan.edu.eg\n"
+                            android:textStyle="bold" />
+
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:maxLines="3"
+                            android:padding="8dp"
+                            android:text="Ashmawi Sami"
+                            android:textColor="#D50000"
+                            android:textSize="22dp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+
+                            android:maxLines="44"
+                            android:padding="8dp"
+                            android:text="UI/UX Developer / Front-End Developer / Wordpress
+\n\n
+Web skills: Wordpress -Bootstrap-HTML-CSS-jquery-javascript
+\nGraphic skills: Photoshop-Illustrator-Cinema 4D-After effect
+\n\n
+EMPLOYMENT:\n
+• i-plugin\n
+Company specializing in Web Solutions\n
+• Hamzh\n
+Company specializing in Web Solutions\n
+• Envato ( themeforest )\n
+Web developer\n
+• Telestar advertising\n
+Company specializing in print advertising in Ismailia\n
+• Maha Art\n
+Company specializing in print advertising in Qatar\n
+• Markets guide\n
+Newspaper advertising\n
+\n
+Volunteering:\n
+• Google Business Group (GBG)\n
+Lecturer\n
+ "
+                            android:textColor="#666"
+                            android:textSize="14sp" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="  Contact : ashmawysamy@gmail.com\n"
+                            android:textStyle="bold" />
+
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:maxLines="3"
+                            android:padding="8dp"
+                            android:text="Karim Yehia"
+                            android:textColor="#D50000"
+                            android:textSize="22dp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+
+                            android:maxLines="44"
+                            android:padding="8dp"
+                            android:text="4th year student at faculty of engineering ِAlexandria university, mechanical department.
+\n\n
+Participated in:\n
+• Aero design 2016\n
+• ROV 2014 and 2015\n
+• Robocon 2013  and 2014\n
+• IRC 2016\n
+• Helped in other competitions as an advisor.\n
+• Mechanical judge in LMR'15.\n
+• Mechanical mentor in LMR'14 and 15.\n
+• Founder in science club team and Torpedo team .\n
+• Head of Mechanical team in MIA (made in Alex team).\n"
+
+                            android:textColor="#666"
+                            android:textSize="14sp" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="  Contact : karimyehia92@gmail.com\n"
+                            android:textStyle="bold" />
+
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:maxLines="3"
+                            android:padding="8dp"
+                            android:text="Islam"
+                            android:textColor="#D50000"
+                            android:textSize="22dp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:maxLines="44"
+                            android:padding="8dp"
+                            android:text="• Web Developing: PHP-MySql-HTML5-CSS3-Javascript-Facebook API-Laravel Framework-Photoshop
+\n\n• CMS: Wordpress, Joomla
+\n\n• Windows Applications: C++-Visual-Basic"
+                            android:textColor="#666"
+                            android:textSize="14sp" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="  Contact : im_eso@hotmail.com\n"
+                            android:textStyle="bold" />
+
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:maxLines="3"
+                            android:padding="8dp"
+                            android:text="Mohamed Ismail"
+                            android:textColor="#D50000"
+                            android:textSize="22dp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:maxLines="44"
+                            android:padding="8dp"
+                            android:text="Skills:
+\nApp Design, Creative Ideas, Identity, Illustrator, Indesign, Marketing Campaign, Packing, Photoshop, UI/UX, Webdesign
+\n\n
+Work Experience :\n
+• Code95\n
+web/graphic designer\n
+• Wahj Design\n
+graphic designer\n
+• Egyncy\n
+graphic/UI designer\n "
+                            android:textColor="#666"
+                            android:textSize="14sp" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="  Contact : mohamed.boucha@gmail.com\n"
+                            android:textStyle="bold" />
+
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:maxLines="3"
+                            android:padding="8dp"
+                            android:text="Mohamed Rashad"
+                            android:textColor="#D50000"
+                            android:textSize="22dp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:maxLines="44"
+                            android:padding="8dp"
+                            android:text="• 1st year engineering student, Suez Canal University
+\n• Android developer/Back-end Web developer/Embedded Systems programmer.
+\n• Co-founder/Lead Developer of PI-Developers Team.
+\n• Embedded systems and arduino board Developer.
+\n• Particpated in the MATE ROV  competiton once with Admiral Team.
+\n• Skilled at Java,C,Python and have worked with PHP,Matlab,C++,Assembly."
+                            android:textColor="#666"
+                            android:textSize="14sp" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="  Contact : a_atef45@yahoo.com\n"
+                            android:textStyle="bold" />
+
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:maxLines="3"
+                            android:padding="8dp"
+                            android:text="Merina Gamal"
+                            android:textColor="#D50000"
+                            android:textSize="22dp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentEnd="true"
+                            android:layout_alignParentLeft="true"
+                            android:layout_alignParentRight="true"
+                            android:layout_alignParentStart="true"
+                            android:maxLines="44"
+                            android:padding="8dp"
+                            android:text="• A Reserch assistant in National Reserch Institute of Astronomy and Geophysic (NRIAG)\n• A Researcher in Space Weather Monitoring Center"
+                            android:textColor="#666"
+                            android:textSize="14sp" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="  Contact : meirnagamal@gmail.com\n"
+                            android:textStyle="bold" />
+
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:maxLines="3"
+                            android:padding="8dp"
+                            android:text="Omar Eldadamony"
+                            android:textColor="#D50000"
+                            android:textSize="22dp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:maxLines="44"
+                            android:padding="8dp"
+                            android:text="• Mechanical team leader at Breakin Point team\n
+• Won the Best design prize in Minesweeper international competition in 2015\n
+• Won 3rd place Minesweeper international competition in 2015\n
+• Won 3rd place with Future team in ROV Egypt Competition in 2015\n
+• Participated in Designing and manufacturing Graduation project (smart library)\n
+• Participated in European Rover Challenge in Poland 2015\n
+• Mentor of teams participated in IEEE Robot cemetery competition 2015\n"
+                            android:textColor="#666"
+                            android:textSize="14sp" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="  Contact : omareldadamony@gmail.com\n"
+                            android:textStyle="bold" />
+
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:maxLines="3"
+                            android:padding="8dp"
+                            android:text="Osama Adel"
+                            android:textColor="#D50000"
+                            android:textSize="22dp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:maxLines="44"
+                            android:padding="8dp"
+                            android:text="• At graduation year at Computer and Control System Department, Faculty of Engineering, Mansoura University.
+\n• fell in love with robotics and especially ROV since my first year in the department.
+\n• participated in ROV competition three times.
+\n• The last one was a success, ranking 5th in the regional qualifications,
+\n• winning the Best Engineering Design award and having a lot of positive review on our robot.
+"
+                            android:textColor="#666"
+                            android:textSize="14sp" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="  Contact : seem.1993@gmail.com\n"
+                            android:textStyle="bold" />
+
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:maxLines="3"
+                            android:padding="8dp"
+                            android:text="Ramy Fathy"
+                            android:textColor="#D50000"
+                            android:textSize="22dp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentEnd="true"
+                            android:layout_alignParentLeft="true"
+                            android:layout_alignParentRight="true"
+                            android:layout_alignParentStart="true"
+                            android:maxLines="44"
+                            android:padding="8dp"
+                            android:text="• Google Certified Android developer, a graduate of Google/MCIT's '’MAL Program'.
+\n\n• Tends to be special and have positive influence on people around me.
+\n\n• Currently a Senior Engineering student, participating in both 'MIE' and 'MAL Start-Up' contests and his team has been selected for semi-finals in both.
+"
+                            android:textColor="#666"
+                            android:textSize="14sp" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="  Contact : romeo.radwan.7@gmail.com\n"
+                            android:textStyle="bold" />
+
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

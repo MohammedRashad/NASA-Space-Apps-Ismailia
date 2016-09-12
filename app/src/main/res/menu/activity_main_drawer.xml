@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item android:title="Info">
+            <menu>
+
+                <item
+                    android:id="@+id/apps"
+                    android:title="Space Apps Challenge" />
+
+                <item
+                    android:id="@+id/nasa"
+                    android:title="NASA" />
+
+                <item
+                    android:id="@+id/eureka"
+                    android:title="Eureka!" />
+
+
+            </menu>
+
+        </item>
+
+    <item android:title="The Event">
+        <menu>
+            <item
+                android:id="@+id/reg"
+                android:title="Registration" />
+            <item
+                android:id="@+id/stream"
+                android:title="Live Steaming" />
+
+            <item
+                android:id="@+id/where"
+                android:title="Where To Attend ?" />
+
+            <item
+                android:id="@+id/chall"
+                android:title="Hackathon Challenges" />
+
+            <item
+                android:id="@+id/sch"
+                android:title="Event Schedule" />
+
+            <item
+                android:id="@+id/spon"
+                android:title="Event Sponsors" />
+
+        </menu>
+    </item>
+
+
+
+        <item android:title="Keep in touch">
+            <menu>
+                <item
+                    android:id="@+id/con"
+                    android:title="Contact Us" />
+
+                <item
+                    android:id="@+id/supp"
+                    android:title="Hereos Behind It" />
+
+                <item
+                    android:id="@+id/mentor"
+                    android:title="Mentors" />
+
+            </menu>
+        </item>
+
+
+        <item android:title="Miscellaneous">
+            <menu>
+                <item
+                    android:id="@+id/Share"
+                    android:title="Spread The Word" />
+                <item
+                    android:id="@+id/pi"
+                    android:title="About" />
+
+            </menu>
+        </item>
+
+    </group>
+
+</menu>

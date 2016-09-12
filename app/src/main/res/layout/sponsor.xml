@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#CFD8DC"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/thumcbnail"
+                        android:layout_width="match_parent"
+                        android:layout_height="250dp"
+                        android:layout_alignParentTop="true"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/ntra" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:maxLines="3"
+                        android:padding="8dp"
+                        android:text="Platinuim Sponsor : NTRA"
+                        android:textColor="#D50000"
+                        android:textSize="22dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="357dp"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/titleda"
+                        android:maxLines="44"
+                        android:padding="8dp"
+                        android:text="The National Telecommunications Regulatory Authority (NTRA) of Egypt was established in accordance with the provision of Law No. 10, for the year 2003 'the Telecommunications Regulation Law' as a national authority to administer the telecommunication sector, considering transparency, open competition, universal service and protection of user rights as a general outline for NTRA scope of work.
+\n\nThe ideal commanding the activities of NTRA is to become an active pace maker within the telecom sector, building the capacity and the reputation, which allows it to be an independent and prudent arbiter among the different stakeholders in the sector; the industry, the state and the consumer.
+\n\nIt is within this equilateral triangle of Industry, State and Consumer, set inside a regional arena, and embedded in a broader context of rapid global changes, that the playing field upon which NTRA is set to score and excel truly exists
+\n\nThe state provides the national and international policies owning the scarce resources, regulating and enforcing fundamentals and ethics of fair competition among industry players while protecting the consumers’ rights."
+                        android:textColor="#666"
+                        android:textSize="14dp" />
+
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+
+
+                    <android.support.v7.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                android:id="@+id/thumbnail"
+                                android:layout_width="match_parent"
+                                android:layout_height="250dp"
+                                android:layout_alignParentTop="true"
+                                android:scaleType="centerCrop"
+                                android:src="@drawable/qs" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:maxLines="3"
+                                android:padding="8dp"
+                                android:text="Golden Sponsor : Suez Canal Authority"
+                                android:textColor="#D50000"
+                                android:textSize="22dp"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:layout_width="357dp"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@+id/titleda"
+                                android:maxLines="44"
+                                android:padding="8dp"
+                                android:text="The Suez Canal Authority (SCA), established on July 26th, 1956 , is a public and an independent authority of a juristic personality,SCA shall report to the Prime Minister. It has all the authorities needed for running the Canal without being limited by the laws and the systems of the government.
+\n\nThe SCA manages, operates, uses, maintains and improves the Suez Canal. It is the SCA, alone and exclusively, that issues and keeps in force the rules of navigation in the Canal and other rules and regulations that provide for a well and orderly run canal."
+                                android:textColor="#666"
+                                android:textSize="14dp" />
+
+
+                        </LinearLayout>
+
+                    </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/thusdgmbnail"
+                        android:layout_width="match_parent"
+                        android:layout_height="250dp"
+                        android:layout_alignParentTop="true"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/nasarabic" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:maxLines="3"
+                        android:padding="8dp"
+                        android:text="Technical Sponsor : Nasa In Arabic"
+                        android:textColor="#D50000"
+                        android:textSize="22dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="357dp"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/titleda"
+                        android:maxLines="44"
+                        android:padding="8dp"
+                        android:text="NASA Arabic is an initiative volunteering for young people speaking Arabic was established on January 1, 2013, and aims to develop and educate the Arabic-speaking communities, through the translation and publication of all the means of physics, especially other sciences in general, and includes the most important research projects and academic studies and scientific coming from NASA (NASA) special and other international scientific journals."
+                        android:textColor="#666"
+                        android:textSize="14dp" />
+
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+
+
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/thucssil"
+                        android:layout_width="match_parent"
+                        android:layout_height="250dp"
+                        android:layout_alignParentTop="true"
+                        android:scaleType="centerCrop"
+                       android:src="@drawable/fab" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:maxLines="3"
+                        android:padding="8dp"
+                        android:text="Makerspace : FabLab 10th City"
+                        android:textColor="#D50000"
+                        android:textSize="22dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="357dp"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/titleda"
+                        android:maxLines="44"
+                        android:padding="8dp"
+                        android:text="Fab labs are a global network of local labs, enabling invention by providing access to tools for digital fabrication
+\n\nFab labs share an evolving inventory of core capabilities to make (almost) anything, allowing people and projects to be shared
+\n\nFab labs are available as a community resource, offering open access for individuals as well as scheduled access for programs
+"
+                        android:textColor="#666"
+                        android:textSize="14dp" />
+
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/thucdgdxssil"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentTop="true"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/pi" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:maxLines="3"
+                        android:padding="8dp"
+                        android:text="Pi Developers : App Developer"
+                        android:textColor="#D50000"
+                        android:textSize="22dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="357dp"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/titleda"
+                        android:maxLines="44"
+                        android:padding="8dp"
+                        android:text="Pi Developers is a growing open-source app-development organization that focuses mainly on mobile apps, we are here since February 2014 and we helped to spread the open source culture among the youth specially on social media."
+                        android:textColor="#666"
+                        android:textSize="14dp" />
+
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

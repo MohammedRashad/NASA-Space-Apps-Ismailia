@@ -1,0 +1,406 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:background="#CFD8DC"
+    android:orientation="vertical">
+
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/card_view2ff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/titledaad"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:maxLines="44"
+                android:padding="5dp"
+                android:text="Behind a great event, there are great volunteers, who sacrficed their time and made the impossible to make that thing real.\n\nIn this section we would like to honor them for making such a great thing.\n\nKudos Eureka!"
+                android:textColor="#666"
+                android:textSize="14dp" />
+
+
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal"
+        android:background="#CFD8DC">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical">
+
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:maxLines="3"
+                        android:padding="8dp"
+                        android:text="Event's Board"
+                        android:textColor="#D50000"
+                        android:textSize="22dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="357dp"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/titleda"
+                        android:maxLines="44"
+                        android:padding="8dp"
+                        android:text="- Ibrahim Mohammed (Chairman)\n
+- Ibrahiem Atoua (Fundraising)\n
+- Ahmed Gamal (Technical Support)\n
+- Aya Ismail (Logistics)\n
+- Eslam Hamed (Logistics)\n
+- Basma Alaa (Media)\n
+- Muhammad Alsamahy (Information Technology)\n
+- Ola Tantawi (Speakers)\n
+- Eman Ahmed (Hackathon)\n
+- Mohammad Essam Saad (Media)\n
+"
+                        android:textColor="#666"
+                        android:textSize="14dp" />
+
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:maxLines="3"
+                        android:padding="8dp"
+                        android:text="Speakers"
+                        android:textColor="#D50000"
+                        android:textSize="22dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="357dp"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/titleda"
+                        android:maxLines="44"
+                        android:padding="8dp"
+                        android:text="- Ahmed Khfaga\n
+- Basma Alaa\n
+- Ibrahim Mohammed\n "
+                        android:textColor="#666"
+                        android:textSize="14dp" />
+
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:maxLines="3"
+                        android:padding="8dp"
+                        android:text="IT"
+                        android:textColor="#D50000"
+                        android:textSize="22dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="357dp"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/titleda"
+                        android:maxLines="44"
+                        android:padding="8dp"
+                        android:text="- Dalia Hasan \n
+- Islam Abdelfattah"
+                        android:textColor="#666"
+                        android:textSize="14dp" />
+
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:maxLines="3"
+                        android:padding="8dp"
+                        android:text="Fund Raising"
+                        android:textColor="#D50000"
+                        android:textSize="22dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="357dp"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/titleda"
+                        android:maxLines="44"
+                        android:padding="8dp"
+                        android:text="- Taha Abdelgawad\n
+- Ahmed Khfaga\n
+- Afnan Alaa\n
+- Zeinab Ibrahim\n
+- Mayada Mahmoud\n
+- Amira Shehab\n
+- Rana Abdullah\n
+- Yousra Mohy \n
+- Nour Khalafallah\n
+- Mohamed Emad\n
+- Ahmed Monem\n
+- Mahmoud Elturky\n
+- Omar Saad\n
+- Mohamed Eid\n
+- Ahmed Elsabbah\n
+- Ali Elganiny \n
+- Ahmed Salama\n"
+                        android:textColor="#666"
+                        android:textSize="14dp" />
+
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:maxLines="3"
+                        android:padding="8dp"
+                        android:text="Technical Support"
+                        android:textColor="#D50000"
+                        android:textSize="22dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="357dp"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/titleda"
+                        android:maxLines="44"
+                        android:padding="8dp"
+                        android:text="- Younes Abu-Elahsan\n
+- Moneer Hassan
+"
+                        android:textColor="#666"
+                        android:textSize="14dp" />
+
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:maxLines="3"
+                        android:padding="8dp"
+                        android:text="Hackathon"
+                        android:textColor="#D50000"
+                        android:textSize="22dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="357dp"
+                        android:layout_height="wrap_content"
+                        android:maxLines="44"
+                        android:padding="8dp"
+                        android:text="- Sagda Ali\n
+- Ayah Abdallah\n
+- Muhammad Abelfattah\n
+- Arwa Hefny\n
+- Gehad Ahmed\n
+- Amira Salama\n
+- Eman Elsaman\n"
+                        android:textColor="#666"
+                        android:textSize="14dp" />
+
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:maxLines="3"
+                        android:padding="8dp"
+                        android:text="Media"
+                        android:textColor="#D50000"
+                        android:textSize="22dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="357dp"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/titleda"
+                        android:maxLines="44"
+                        android:padding="8dp"
+                        android:text="- Ehab Gamal\n
+- Ibrahiem Atoua\n
+- Fakhry Badran\n
+- Mostafa Omar\n
+- Youmna El-Hamamy\n
+- Abdu Shatta\n
+- Ahmed Elsabbah\n
+- Eman Mahmoud Mousa\n
+- Amira Anwar\n
+- Amira Abdullah\n
+- Huda Rabea\n
+- Bassam Abdelaziz\n
+- NaDa Hassan\n
+- Youmna Ehab\n
+- Sohaila Soliman\n
+- Nada Hassan\n
+- Alaa Elshawadfy\n
+- Mohamed Essam
+- Mohamed Rashad"
+                        android:textColor="#666"
+                        android:textSize="14dp" />
+
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:maxLines="3"
+                        android:padding="8dp"
+                        android:text="Logistics"
+                        android:textColor="#D50000"
+                        android:textSize="22dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="357dp"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/titleda"
+                        android:maxLines="44"
+                        android:padding="8dp"
+                        android:text="- Abdullah Shokry\n
+- Ahmed Mahmoud\n
+- Omar Saleh\n
+- Osama Mohamed\n
+- Esraa Elnady \n
+- Ahmed Nabil \n
+- Hoda Abdulrahman\n
+- Esraa Diab\n
+- Esraa Mamdoh\n
+- Ayat Hassan\n
+- Reem Gamal\n
+- Abdullah Amin\n
+- Sherif Abolesoud\n
+"
+                        android:textColor="#666"
+                        android:textSize="14dp" />
+
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+</LinearLayout>

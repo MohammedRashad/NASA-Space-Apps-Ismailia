@@ -2,6 +2,9 @@
 
 The Official NASA Space Apps Ismailia Android Application 
 
+Download it here : 
+https://play.google.com/store/apps/details?id=challenge.nasa.com.nasasapceappschallenge
+
 # Introduction 
 
 For the first time in our city, Eureka! Scientific Society is hosting the International Space Apps Challenge Hackathon.<br/>
